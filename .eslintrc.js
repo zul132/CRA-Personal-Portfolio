@@ -20,6 +20,8 @@ module.exports = {
   rules: {
     'prefer-template': 0,
     'react/no-children-prop': [0],
-    'linebreak-style': 0
+    'linebreak-style': 0,
+    "react/jsx-one-expression-per-line": "off",
+    "comma-dangle": ["error", "always-multiline"]
   },
 };
