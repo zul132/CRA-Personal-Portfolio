@@ -2,148 +2,222 @@
     "projects" : [
         {
             "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "title": "My Dev Portfolio",
+            "bodyText": "- A Personal Developer Portfolio built using React to showcase my skills, projects and experiences.\n - Fully responsive with light/dark mode support.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/zul132/CRA-Personal-Portfolio"
                 },
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "https://cra-personal-portfolio.vercel.app/"
                 }
             ],
             "tags" : [
-                "React",
+                "React.js",
                 "Portfolio",
                 "JavaScript"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/SumMate-Text-Summarizer-poster.png",
+            "title": "SumMate: AI Text Summarizer",
+            "bodyText": "- A powerful full-stack web app for **Text Summarization** using **NodeJS** and the **Hugging Face Inference API**.\n - Designed an **intuitive user interface** with **HTML**, **CSS**, and **JavaScript**.\n - Tested and Integrated **APIs** using **Postman**.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/zul132/SumMate-AI-Text-Summarizer-App"
+                },
+                {
+                    "text": "Demo",
+                    "href": "https://youtu.be/QghMJyQezHE?si=0tP6yX6Z-G2MOti-"
+                }
+            ],
+            "tags" : [
+                "NodeJS",
+                "Express",
+                "HTML/CSS",
+                "JavaScript",
+                "Postman",
+                "Hugging Face",
+                "Postman Student Programs"
+            ]
+        },
+        {
+            "image" : "images/projects/TickTickBoom-Todos-poster.png",
+            "title": "TickTickBoom Todos",
+            "bodyText": "- A sleek and user-friendly **Todos List** app using **React** with **Material-UI** components. \n - Allows users to **add**, **delete** and **mark todos as completed**, with a **priority status** option to **track important tasks**. \n - Integrated **Redux** for **state management** and **JEST** for **unit testing**.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zul132/React-Todos-List-App"
                 },
                 {
                     "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://react-todos-list-app-six.vercel.app"
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "React.js",
+                "Task Manager",
+                "Material-UI",
+                "Redux",
+                "JavaScript",
+                "JEST"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image" : "images/projects/Vipose-Billing-poster.png",
+            "title": "Vipose Billing Software",
+            "bodyText": "- An inclusive **Billing Software** using **React** that enables **visually impaired users** to perform billing tasks.\n - Integrated **Razorpay** for the **Payment Gateway**. \n - Uses **Cloud Firestore** database to store grocery bills.\n - Generates a **printable bill** designed using **HTML/CSS** upon **successful payment.**",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
+                    "href": "https://github.com/adrieljoshua/ViposeBilling"
+                },
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "text": "Live",
+                    "href": "https://vipose-billing.netlify.app/"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
+                "React.js",
+                "Billing Software",
+                "Cloud Firestore",
                 "TypeScript",
-                "Angular 12",
-                "JavaScript"
+                "Razorpay"
             ]
         },
         {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
+            "image" : "images/projects/Flair-Ecommerce-poster.png",
+            "title": "Flair: E-Commerce Website",
+            "bodyText": "- A beautiful, responsive **E-commerce website UI** for a **clothing brand**. This website was submitted as a **Major Project** for my **web development internship** at YHills.\n - Designed using **HTML**, **CSS**, **JavaScript** and **Bootstrap**, the website offers a **seamless shopping experience** for users.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
+                    "href": "https://github.com/zul132/Flair-EcommerceWebsite"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://flair-home.netlify.app/"
                 }
             ],
             "tags" : [
+                "Intern Project",
+                "E-Commerce Website",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "Web Design"
+            ]
+        },
+        {
+            "image" : "images/projects/Travel-Blog-poster.png",
+            "title": "TripVista: Travel Blog Website",
+            "bodyText": "- A **personal travel blog** website to share your **travel adventures, tips, and captivating photos** with the world.\n - Built a **visually engaging, responsive UI** with **interactive animations** using **HTML, CSS** and **JavaScript**.\n - Originally **hosted** on **IBM Cloud Static Web Apps**.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/FathimaZulaikha/Personal-Travel-Blog"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://fathimazulaikha.github.io/Personal-Travel-Blog/"
+                }
+            ],
+            "tags" : [
+                "College Project",
+                "Personal Travel Blog",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "IBM Cloud Static Web Apps",
+                "Bootstrap"
+            ]
+        },
+        {
+            "image" : "images/projects/Banking-System-poster.png",
+            "title": "The Sparks Bank",
+            "bodyText": "- A **basic banking system** website wherein **money can be transfered** to and from customers.\n - A ledger is maintained for **viewing customer details** as well as the **history of transactions**.\n - Developed using **HTML, CSS, and PHP** with **MySQL** database.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zul132/Basic-Banking-System-TSF-Internship"
+                },
+                {
+                    "text": "Demo",
+                    "href": "https://youtu.be/CNWB2wrNoDQ?si=VOm89u6rlhdtZDvw"
+                }
+            ],
+            "tags" : [
+                "Intern Project",
+                "Basic Banking System",
+                "HTML",
+                "CSS",
+                "PHP",
+                "MySQL",
+                "The Sparks Foundation"
+            ]
+        },
+        {
+            "image" : "images/projects/Deepfake-Detector-poster.jpg",
+            "title": "Deepfake Images Detector",
+            "bodyText": "- An open-source **Deepfake Images Detector** for **classifying images** as real or deepfake.\n - Implements 3 deep learning models - **CNN, CapsNet and Xception**.\n - **Compared and Evaluated** each of the models based on **accuracy and loss**. The **Xception model** was found to be the **most accurate** with an accuracy score of **68.96%**.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abhisheks008/DL-Simplified/tree/main/Deepfake%20Images%20Detector"
+                }
+            ],
+            "tags" : [
+                "Open Source Contribution",
+                "Deep Learning Simplified",
                 "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "TensorFlow",
+                "Neural Networks",
+                "Jupyter Notebook",
+                "Google Colab"
+            ]
+        },
+        {
+            "image" : "images/projects/Library-Management-poster.png",
+            "title": "Library Management System",
+            "bodyText": "- A **GUI desktop app** built using **JavaFX** and **MySQL** to enable CRUD operations for **library books management**.\n - Allows users to **add, delete and view books** in a graphical table format.\n - This was my **mini project** for the **Database Managment Systems (DBMS)** course in my 4th Semester.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zul132/Library-Management-System-App"
+                }
+            ],
+            "tags" : [
+                "College Project",
+                "Database Management Systems",
+                "JavaFX",
+                "Java",
+                "MySQL",
+                "Scene Builder",
+                "DBMS"
+            ]
+        },
+        {
+            "image" : "images/projects/Replit-Analysis-poster.jpg",
+            "title": "Replit Bounties Dataset Analysis",
+            "bodyText": "- A **Data Analysis** project aimed at analyzing the **Replit Bounties Dataset** on **Kaggle**.\n - Uses **Linear Regression**, **Decision Tree Classifier, & K-Nearest Neighbours (KNN)** algorithms to implement the predictive models.\n - **Performed EDA** and **data preprocessing/cleaning** to ensure integrity of the dataset. **Visualized insights** using **bar graphs** and **histograms**.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abhisheks008/ML-Crate/tree/main/Replit%20Bounties%20Dataset%20Analysis"
+                }
+            ],
+            "tags" : [
+                "Open Source Contribution",
+                "ML Crate",
+                "Python",
+                "Machine Learning",
+                "Jupyter Notebook",
+                "Google Colab"
             ]
         }
     ]
