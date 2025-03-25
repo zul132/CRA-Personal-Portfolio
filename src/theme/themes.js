@@ -1,47 +1,47 @@
 export const lightTheme = {
-  background: '#F3F0FF', // Soft lavender-blue background
-  color: '#1A1A2E', // Deep navy text for good contrast
-  accentColor: '#6A0DAD', // Vibrant purple accent
+  background: '#F3F0FF',
+  color: '#252546',
+  accentColor: '#6A0DAD',
   chronoTheme: {
-    cardBgColor: '#FFFFFF', // White card background
-    cardForeColor: '#1A1A2E', // Dark text for contrast
-    titleColor: '#6A0DAD', // Purple title color
+    cardBgColor: '#FFFFFF',
+    cardForeColor: '#1A1A2E',
+    titleColor: '#FF7EDB',
   },
-  timelineLineColor: '#A685E2', // Light purple timeline
-  cardBackground: '#FFFFFF', // White cards
-  cardFooterBackground: '#EFEFFF', // Slightly tinted footer for depth
-  cardBorderColor: '#6A0DAD20', // Subtle purple border
+  timelineLineColor: '#A685E2',
+  cardBackground: '#FFFFFF',
+  cardFooterBackground: '#EFEFFF',
+  cardBorderColor: '#6A0DAD20',
   navbarTheme: {
-    background: '#4A0072', // Rich deep purple navbar
+    background: '#4A0072',
     linkColor: '#ffffff',
-    linkHoverColor: '#EAE6FF', // Soft pastel white on hover
-    linkActiveColor: '#FF7EDB', // Electric pink highlight
+    linkHoverColor: '#EAE6FF',
+    linkActiveColor: '#FF7EDB',
   },
   bsPrimaryVariant: 'light',
   bsSecondaryVariant: 'dark',
-  socialIconBgColor: '#1A1A2E', // Dark blue for contrast
+  socialIconBgColor: '#1A1A2E',
 };
 
 export const darkTheme = {
-  background: '#1A002B', // Deep twilight purple background
-  color: '#EAE6FF', // Soft pastel white text
-  accentColor: '#5E17EB', // Vibrant electric purple
+  background: '#1A002B',
+  color: '#EAE6FF',
+  accentColor: '#5E17EB',
   chronoTheme: {
-    cardBgColor: '#2A004D', // Dark violet card background
-    cardForeColor: '#EAE6FF', // Soft pastel white text
-    titleColor: '#C084FC', // Light neon purple
+    cardBgColor: '#2A004D',
+    cardForeColor: '#EAE6FF',
+    titleColor: '#C084FC',
   },
-  timelineLineColor: '#6F4FA3', // Muted royal purple
-  cardBackground: '#2A004D', // Dark violet cards
-  cardFooterBackground: '#200250', // Deep purple footer
-  cardBorderColor: '#6A0DAD60', // Soft purple glow effect
+  timelineLineColor: '#6F4FA3',
+  cardBackground: '#2A004D',
+  cardFooterBackground: '#200250',
+  cardBorderColor: '#6A0DAD60',
   navbarTheme: {
-    background: '#4A0072', // Rich deep purple navbar
+    background: '#4A0072',
     linkColor: '#ffffff',
-    linkHoverColor: '#EAE6FF', // Soft pastel white on hover
-    linkActiveColor: '#FF7EDB', // Electric pink highlight
+    linkHoverColor: '#EAE6FF',
+    linkActiveColor: '#FF7EDB',
   },
   bsPrimaryVariant: 'dark',
   bsSecondaryVariant: 'light',
-  socialIconBgColor: '#F3F0FF', // Soft lavender-blue for contrast
+  socialIconBgColor: '#F3F0FF',
 };

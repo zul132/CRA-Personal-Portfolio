@@ -19,7 +19,7 @@ const ExternalNavLink = styled.a`
     color: ${(props) => props.theme.navbarTheme.linkHoverColor};
   }
   &::after {
-    background-color: ${(props) => props.theme.accentColor};
+    background-color: ${(props) => props.theme.navbarTheme.linkActiveColor};
   }
 `;
 
@@ -29,7 +29,7 @@ const InternalNavLink = styled(NavLink)`
     color: ${(props) => props.theme.navbarTheme.linkHoverColor};
   }
   &::after {
-    background-color: ${(props) => props.theme.accentColor};
+    background-color: ${(props) => props.theme.navbarTheme.linkActiveColor};
   }
   &.navbar__link--active {
     color: ${(props) => props.theme.navbarTheme.linkActiveColor};
