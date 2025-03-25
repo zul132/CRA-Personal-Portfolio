@@ -1,0 +1,103 @@
+/* General Styles */
+.resume-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #4A0072; /* Deep purple */
+  }
+  
+  /* --- TIMELINE STRUCTURE FOR EDUCATION --- */
+  .education-timeline {
+    position: relative;
+    margin: 30px 0;
+    padding-left: 50px; /* Creates space for timeline */
+    border-left: 4px solid #6A0DAD; /* Purple timeline line */
+  }
+  
+  .timeline-card {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    min-height: 120px;
+    display: block; /* Ensures content is stacked in a column */
+}
+
+/* Fix the bullet point positioning */
+.timeline-card::before {
+    content: "";
+    position: absolute;
+    left: -28px; /* Adjust the distance from the card */
+    top: 50%;
+    transform: translateY(-50%); /* Aligns it to the middle */
+    width: 15px;
+    height: 15px;
+    background: #6A0DAD;
+    border-radius: 50%;
+}
+
+  
+  /* --- INTERNSHIPS & PROJECTS (STACKED CARDS) --- */
+  .experience-container, .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .experience-card, .project-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .experience-card:hover, .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* --- LIST STYLING (FOR BULLET POINTS) --- */
+  ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  
+  /* --- RESPONSIVE DESIGN --- */
+  @media (max-width: 768px) {
+    .resume-container {
+      padding: 10px;
+    }
+  
+    .timeline-card, .experience-card, .project-card {
+      width: 100%;
+    }
+  
+    .education-timeline {
+      padding-left: 30px; /* Adjust timeline spacing */
+    }
+  
+    .timeline-card::before {
+      left: -10px;
+      width: 12px;
+      height: 12px;
+    }
+  }
+  

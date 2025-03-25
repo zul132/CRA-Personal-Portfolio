@@ -18,6 +18,10 @@
             "href": "/skills"
         },
         {
+            "title": "Resume",
+            "href": "/resume"
+        },
+        {
             "title": "Projects",
             "href": "/projects"
         }
