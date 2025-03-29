@@ -1,6 +1,10 @@
 {
     "social": [
         {
+            "network" : "email",
+            "href": "mailto:fathimazulaikha.25cs@licet.ac.in"
+        },
+        {
             "network" : "linkedin",
             "href": "https://www.linkedin.com/in/fathimazulaikha/"
         },
@@ -9,8 +13,12 @@
             "href": "https://github.com/zul132"
         },
         {
-            "network" : "email",
-            "href": "mailto:fathimazulaikha.25cs@licet.ac.in"
+            "network": "youtube",
+            "href": "https://youtube.com/@artemisqueen2003?si=RoEKCW2t56zRxM9a"
+        },
+        {
+            "network": "linktree",
+            "href": "https://linktr.ee/Fathima_Zulaikha"
         }
     ]
 }

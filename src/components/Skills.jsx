@@ -11,7 +11,7 @@ const styles = {
   iconStyle: {
     height: 75,
     width: 75,
-    margin: 10,
+    margin: 6,
     marginBottom: 0,
   },
   introTextContainer: {

@@ -10,36 +10,56 @@
                     "title": "Java"
                 },
                 {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/c-lang.png",
+                    "title": "C"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "CSS"
                 },
                 {
                     "icon": "images/skills/js.png",
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
-                },
-                {
                     "icon": "images/skills/mysql.png",
                     "title": "MySQL"
+                },
+                {
+                    "icon": "images/skills/sqlite.png",
+                    "title": "SQLite"
+                },
+                {
+                    "icon": "images/skills/mongo-db.png",
+                    "title": "MongoDB"
                 }
         ]},
         {
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
-                },
-                {
                     "icon": "images/skills/react.png",
                     "title": "React"
                 },
                 {
                     "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
+                    "title": "Node.js"
+                },
+                {
+                    "icon": "images/skills/express.png",
+                    "title": "Express.js"
+                },
+                {
+                    "icon": "images/skills/flask.png",
+                    "title": "Flask"
                 }
             ]
         },
@@ -47,16 +67,36 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
-                },
-                {
                     "icon": "images/skills/git.png",
                     "title": "Git"
                 },
                 {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
+                    "icon": "images/skills/github.png",
+                    "title": "GitHub"
+                },
+                {
+                    "icon": "images/skills/linux.png",
+                    "title": "Linux"
+                },
+                {
+                    "icon": "images/skills/red-hat.png",
+                    "title": "Red Hat Enterprise Linux"
+                },
+                {
+                    "icon": "images/skills/ansible.png",
+                    "title": "Ansible"
+                },
+                {
+                    "icon": "images/skills/postman.png",
+                    "title": "Postman"
+                },
+                {
+                    "icon": "images/skills/vscode.png",
+                    "title": "VS Code"
+                },
+                {
+                    "icon": "images/skills/googlecloud.png",
+                    "title": "Google Cloud (GCP)"
                 }
             ]
     }
