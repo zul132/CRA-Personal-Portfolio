@@ -3,7 +3,7 @@
         {
             "component": "About",
             "path": "/about",
-            "headerTitle": "About"
+            "headerTitle": "About Me"
         },
         {
             "component": "Skills",
