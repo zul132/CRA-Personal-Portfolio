@@ -21,6 +21,31 @@
             ]
         },
         {
+            "image" : "images/projects/MITHRA-Voice-Bot-poster.png",
+            "title": "MITHRA: AI Voice Assistant for Chennai Metro",
+            "bodyText": "- An AI-powered, multi-agent voice bot system built with **Gemini LLM** and **RAG** for **metro passenger guidance** and **ticket booking**.\n - Features **multilingual voice support** (Tamil, Hindi, English).\n - Co-developed with CMRL as my final year industry project.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/zul132/MITHRA-Voice-Bot"
+                },
+                {
+                    "text": "Demo",
+                    "href": "https://drive.google.com/file/d/1nSbEBgcakUH723ypsjLFaXG7UU0Mn6Rx/view?usp=sharing"
+                }
+            ],
+            "tags" : [
+                "Intern Project",
+                "NLP & LLMs",
+                "RAG",
+                "Google Gemini",
+                "Flask",
+                "HTML/CSS",
+                "JavaScript",
+                "Bootstrap"
+            ]
+        },
+        {
             "image" : "images/projects/SumMate-Text-Summarizer-poster.png",
             "title": "SumMate: AI Text Summarizer",
             "bodyText": "- A powerful full-stack web app for **Text Summarization** using **NodeJS** and the **Hugging Face Inference API**.\n - Designed an **intuitive user interface** with **HTML**, **CSS**, and **JavaScript**.\n - Tested and Integrated **APIs** using **Postman**.",
@@ -65,6 +90,22 @@
                 "Redux",
                 "JavaScript",
                 "JEST"
+            ]
+        },
+        {
+            "image" : "images/projects/SmartSpend-AWS-poster.png",
+            "title": "SmartSpend: Financial Planning Coach",
+            "bodyText": "- Created an interactive AI-powered **financial planning assistant** for young working professionals in India.\n - Built and deployed using **Amazon PartyRock** and the **Claude 3.5 Sonnet** model.\n - Developed under the **AWS AI & ML Scholars 2025** Challenge.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://partyrock.aws/u/fathimazulaikha25cse/UCFzE2M0T/SmartSpend-India"
+                }
+            ],
+            "tags" : [
+                "AWS PartyRock",
+                "Claude Sonnet",
+                "Amazon Bedrock"
             ]
         },
         {
